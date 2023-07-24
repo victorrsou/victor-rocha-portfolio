@@ -18,3 +18,8 @@ body {
 .conteudo {
     color: white;
 }
+
+.iconelateral {
+    max-width: 30px;
+    max-height: 30px;
+}
