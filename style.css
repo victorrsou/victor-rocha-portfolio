@@ -13,6 +13,10 @@ body {
     color: white;
     height: 100vh;
     border: solid red;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .conteudo {
@@ -22,4 +26,26 @@ body {
 .iconelateral {
     max-width: 30px;
     max-height: 30px;
+}
+
+.logo {
+    float: left;
+    scale: 70%;
+}
+
+.texto-logo {
+    font-size: 200%;
+    line-height: 100%;
+}
+
+.texto-descricao {
+    font-size: 150%;
+    line-height: 100%;
+    color: #8C89A6;
+}
+
+.texto-menulateral {
+    font-size: 150%;
+    line-height: 150%;
+    color: #8C89A6;
 }
