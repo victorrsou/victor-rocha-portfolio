@@ -20,12 +20,23 @@ body {
 }
 
 .conteudo {
-    color: white;
+    color: #8C89A6;
+    padding-top: 6%;
+    font-size: 115%;
+}
+
+.tituloconteudo {
+    color: #0AFFC4;
+    font-size: 130%;
+}
+
+.boxiconelateral {
+    max-width: 80px;
 }
 
 .iconelateral {
-    max-width: 26px;
-    max-height: 26px;
+    max-width: 30px;
+    max-height: 30px;
 }
 
 .logo {
@@ -37,12 +48,12 @@ body {
 
 .texto-logo {
     font-size: 180%;
-    line-height: 100%;
+    line-height: 120%;
 }
 
 .texto-descricao {
     font-size: 120%;
-    line-height: 100%;
+    line-height: 140%;
     color: #8C89A6;
 }
 
@@ -50,4 +61,16 @@ body {
     font-size: 120%;
     line-height: 250%;
     color: #8C89A6;
+}
+
+.containerconteudomenu {
+    margin-bottom: 40px;
+}
+
+.containercursos {
+    margin-bottom: 20px;
+}
+
+.textocurso {
+    color: white;
 }
