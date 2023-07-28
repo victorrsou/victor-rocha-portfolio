@@ -24,8 +24,8 @@ body {
 }
 
 .iconelateral {
-    max-width: 30px;
-    max-height: 30px;
+    max-width: 26px;
+    max-height: 26px;
 }
 
 .logo {
@@ -48,6 +48,6 @@ body {
 
 .texto-menulateral {
     font-size: 120%;
-    line-height: 150%;
+    line-height: 250%;
     color: #8C89A6;
 }
