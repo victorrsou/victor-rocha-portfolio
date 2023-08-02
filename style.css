@@ -16,6 +16,8 @@ body {
     padding-bottom: 6%;
     padding-left: 4%;
     padding-right: 4%;
+    position: sticky;
+    top: 0;
 }
 
 .conteudo {
@@ -46,6 +48,7 @@ body {
 }
 
 .texto-logo {
+    color: #FF695C;
     font-size: 180%;
     line-height: 120%;
 }
@@ -53,13 +56,13 @@ body {
 .texto-descricao {
     font-size: 120%;
     line-height: 140%;
-    color: #8C89A6;
+    color: #BA3259;
 }
 
 .texto-menulateral {
     font-size: 120%;
     line-height: 250%;
-    color: #8C89A6;
+    color: #BA3259;
 }
 
 .containerconteudomenu {
