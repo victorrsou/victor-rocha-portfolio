@@ -1,5 +1,5 @@
 body {
-    background-color: #0C0927;
+    background-color: #2E1E45;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -12,7 +12,6 @@ body {
 .menulateral {
     color: white;
     height: 100vh;
-    border: solid red;
     padding-top: 6%;
     padding-bottom: 6%;
     padding-left: 4%;
@@ -20,13 +19,13 @@ body {
 }
 
 .conteudo {
-    color: #8C89A6;
+    color: #BA3259;
     padding-top: 6%;
-    font-size: 115%;
+    font-size: 135%;
 }
 
 .tituloconteudo {
-    color: #0AFFC4;
+    color: #ffffff;
     font-size: 130%;
 }
 
@@ -64,6 +63,9 @@ body {
 }
 
 .containerconteudomenu {
+    background-color: #FF695C;
+    padding: 3%;
+    border-radius: 10px;
     margin-bottom: 40px;
 }
 
