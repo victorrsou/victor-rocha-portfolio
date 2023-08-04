@@ -79,3 +79,20 @@ body {
 .textocurso {
     color: white;
 }
+
+
+
+.corpo-card {
+    border-color: #BA3259;
+}
+.titulo-card {
+    color: #FF695C;
+}
+.texto-card {
+    font-size: 93%;
+    color: #BA3259;
+}
+
+.imagem-capa-card {
+    height: 100%;
+}
