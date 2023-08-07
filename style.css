@@ -20,6 +20,13 @@ body {
     top: 0;
 }
 
+.conteudo-cursos {
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
 .conteudo {
     color: #BA3259;
     padding-top: 6%;
@@ -38,6 +45,10 @@ body {
 .iconelateral {
     max-width: 30px;
     max-height: 30px;
+    transition: 0.4s ease ;
+}
+.iconelateral:hover {
+    filter: brightness(0) invert(1);
 }
 
 .logo {
@@ -62,7 +73,35 @@ body {
 .texto-menulateral {
     font-size: 120%;
     line-height: 250%;
-    color: #BA3259;
+    color: #8C89A6;
+}
+
+.opcaomenu {
+    font-size: 110%;
+    transition: 0.4s ease;
+    position: relative;
+}
+
+.opcaomenu:hover {
+    filter: brightness(0) invert(1);
+}
+
+.opcaomenu:after {
+    content: "";
+    display: block;
+    width: 2%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    bottom: 17px;
+    right: 103%;
+    opacity: 0;
+    transition: 0.4s ease;
+}
+
+.opcaomenu:hover:hover:after {
+    opacity: 1;
 }
 
 .containerconteudomenu {
