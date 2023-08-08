@@ -35,6 +35,7 @@ body {
 
 .tituloconteudo {
     color: #ffffff;
+    margin-bottom: 5%;
     font-size: 130%;
 }
 
@@ -112,7 +113,8 @@ body {
 }
 
 .containercursos {
-    margin-bottom: 20px;
+    margin-bottom: 6%;
+    margin-left: 4%;
 }
 
 .textocurso {
