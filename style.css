@@ -46,8 +46,9 @@ body {
 .iconelateral {
     max-width: 30px;
     max-height: 30px;
-    transition: 0.4s ease ;
+    transition: 0.4s ease;
 }
+
 .iconelateral:hover {
     filter: brightness(0) invert(1);
 }
@@ -84,6 +85,7 @@ body {
     position: relative;
     cursor: pointer;
 }
+
 a {
     text-decoration: none;
     color: #8C89A6;
@@ -132,9 +134,11 @@ a {
 .corpo-card {
     border-color: #BA3259;
 }
+
 .titulo-card {
     color: #FF695C;
 }
+
 .texto-card {
     font-size: 93%;
     color: #BA3259;
@@ -163,4 +167,26 @@ a {
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #FF695C;
     --bs-btn-disabled-border-color: #FF695C;
+}
+
+@media (max-width: 770px) {
+    .menulateral {
+        width: 100%;
+        position: relative;
+    }
+
+    .conteudo {
+        width: 100%;
+    }
+
+    .corpo-card {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .containerconteudomenu {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
 }
