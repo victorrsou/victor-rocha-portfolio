@@ -176,7 +176,7 @@ a {
     --bs-btn-disabled-border-color: #FF695C;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 993px) {
     .menulateral {
         width: 100%;
         position: relative;
