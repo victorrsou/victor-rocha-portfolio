@@ -43,14 +43,44 @@ body {
     max-width: 80px;
 }
 
-.iconelateral {
+.iconelateralgithub {
     max-width: 30px;
     max-height: 30px;
     transition: 0.4s ease;
 }
 
-.iconelateral:hover {
-    filter: brightness(0) invert(1);
+.iconelateralgithub:hover {
+    content: url(./img/icons/github_azul.png);
+}
+
+.iconelateralinstagram {
+    max-width: 30px;
+    max-height: 30px;
+    transition: 0.4s ease;
+}
+
+.iconelateralinstagram:hover {
+    content: url(./img/icons/instagram_azul.png);
+}
+
+.iconelaterallinkedin {
+    max-width: 30px;
+    max-height: 30px;
+    transition: 0.4s ease;
+}
+
+.iconelaterallinkedin:hover {
+    content: url(./img/icons/linkedin_azul.png);
+}
+
+.iconelateralwhatsapp {
+    max-width: 30px;
+    max-height: 30px;
+    transition: content 0.6s ease-in-out;
+}
+
+.iconelateralwhatsapp:hover {
+    content: url(./img/icons/whatsapp_azul.png);
 }
 
 .logo {
@@ -88,7 +118,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #989898;
+    color: #bebebe;
 }
 
 .opcaomenu:hover a {
