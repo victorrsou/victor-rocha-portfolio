@@ -4,7 +4,7 @@
 
 
 body {
-    background-color: #2E1E45;
+    background-color: #ffffff;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -25,15 +25,8 @@ body {
     top: 0;
 }
 
-.conteudo-cursos {
-    padding-left: 4%;
-    padding-right: 4%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
 .conteudo {
-    color: #BA3259;
+    color: #ffffff;
     padding-top: 6%;
     font-size: 135%;
 }
@@ -41,8 +34,8 @@ body {
 .tituloconteudo {
     font-family: 'PT Sans', sans-serif;
     font-weight: 700;
-    color: #ffffff;
-    margin-bottom: 5%;
+    color: #000000;
+    margin-bottom: 3%;
     font-size: 130%;
 }
 
@@ -68,7 +61,7 @@ body {
 }
 
 .texto-logo {
-    color: #FF695C;
+    color: #2b2b2b;
     font-size: 180%;
     line-height: 120%;
 }
@@ -76,13 +69,13 @@ body {
 .texto-descricao {
     font-size: 120%;
     line-height: 140%;
-    color: #BA3259;
+    color: #4e4e4e;
 }
 
 .texto-menulateral {
     font-size: 120%;
     line-height: 250%;
-    color: #8C89A6;
+    color: #4e4e4e;
 }
 
 
@@ -95,11 +88,11 @@ body {
 
 a {
     text-decoration: none;
-    color: #8C89A6;
+    color: #989898;
 }
 
-.opcaomenu:hover {
-    filter: brightness(0) invert(1);
+.opcaomenu:hover a {
+    color: #2466da;
 }
 
 .opcaomenu:after {
@@ -107,24 +100,28 @@ a {
     display: block;
     width: 2%;
     height: 20%;
-    border-radius: 50%;
     background-color: white;
     position: absolute;
     bottom: 17px;
     right: 103%;
     opacity: 0;
-    transition: 0.4s ease;
+    transition: background-color 0.4s ease;
 }
 
-.opcaomenu:hover:hover:after {
+.opcaomenu:hover:after {
+    background-color: #2466da;
     opacity: 1;
 }
 
 .containerconteudomenu {
-    background-color: #FF695C;
+    background-color: #2466da;
     padding: 3%;
-    border-radius: 10px;
     margin-bottom: 40px;
+}
+
+.containercompletocursos {
+    background-color: #d9d9d936;
+    padding: 3%;
 }
 
 .containercursos {
@@ -133,7 +130,11 @@ a {
 }
 
 .textocurso {
-    color: white;
+    color: rgb(0, 0, 0);
+}
+
+.textocursolocal {
+    color: #757575;
 }
 
 
