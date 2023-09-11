@@ -132,6 +132,7 @@ a {
     height: 20%;
     background-color: white;
     position: absolute;
+    border-radius: 50%;
     bottom: 17px;
     right: 103%;
     opacity: 0;
